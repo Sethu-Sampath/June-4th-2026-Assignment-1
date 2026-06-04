@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #E8EBF1;
+}
+.container{
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px rgb(81, 80, 80);
+    height: 150vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    padding-bottom: 10px;
+}
+.left{
+    font-size: 20px;
+    font-weight: 500;
+}
+.right{
+    background-color: #126FFC;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.mainbd{
+    background-image: url(https://wallpapercave.com/wp/wp4799408.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    text-align: justify;
+    gap: 10px;
+}
+.signup{
+    background-color: white;
+    width: 40%;
+    border-radius: 5px;
+    height: 6vh;
+    position: relative;
+    display: flex;
+    margin-top: 25px;
+}
+input{
+    border: none;
+    height: fit-content;
+    position: relative;
+    top: 15px;
+    width: 90%;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.btn{
+    background-color: #1370FD;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: 20vh;
+}
+.dl h2, .dl p, .dm h2, .dm p, .dr h2, .dr p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dl h2, .dl p{
+    margin-left: -12vh;
+}
+.dm h2, .dm p{
+    margin-left: -11vh;
+}
+.dr h2, .dr p{
+    margin-left: -12vh;
+}
