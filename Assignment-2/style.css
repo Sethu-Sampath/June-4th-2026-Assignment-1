@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/066/782/749/non_2x/vibrant-abstract-background-featuring-circular-shapes-curved-lines-and-gradient-colors-in-pink-and-purple-tones-perfect-for-creative-digital-design-projects-vector.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    background-color: #F4F6F8;
+    height: auto;
+    margin: 20px;
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 0 50px black;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.heading p{
+    color: #7E72CC;
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.heading span{
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+    height: 94vh;
+    width: 50vw;
+    box-shadow: 0 0 50px black;
+}
+.cdmn{
+    background-color: #F0EDFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.cdmn span{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px;
+}
+.cdmn p{
+    color: #AAA8B4;
+    text-align: center;
+}
+.price{
+    padding: 40px;
+}
+.price span{
+    font-size: 20px;
+}
+.price p{
+    font-size: 13px;
+}
+.btn{
+    background-color: #7257FB;
+    color: white;
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+}
+.btn:hover{
+    background-color: #5c3cfa;
+    transition: all 0.3s ease-in;
+    box-shadow: 0 0 10px black;
+}
+.dwn{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    line-height: 40px;
+    color: #A7A9A8;
+}
+.dwn p{
+    font-size: 25px;
+    color: #797979;
+}
+.fun{
+    background-color: #FEDA52;
+    position: absolute;
+    top: 34vh;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px;
+    color: #64404E;
+    font-weight: 600;
+    border: 1px solid black;
+    box-shadow: 0 0 40px #FEDA52;
+}
+.transparent{
+    border-radius: 30px;
+    backdrop-filter: blur(1px);
+    background-color: rgba(255, 255, 255, 0.227); 
+    border: 1px solid white;
+    padding: 3px;
+    margin: 15px;
+}
